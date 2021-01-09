@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joyce's Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header1>
+<div class="logo"> Joyce's Blog</div>
+  </header1>
+
+  <main>
+<!-- Introduction-->
+    <section>
+    <div class="profile-picture-container">
+      <img src="images/profile2.jpg" alt="Joyce - Profile Photo" width="300" height="300" class="profile-picture" />
+    </div>
+    
+    <h1>Greetings! I'm Joyce Tao from Los Angeles, California. </h1>
+    <!--About Me-->
+    <h2> About Me </h2>
+    <p> I am trilingual analyst with over 15+ years of experience interpreting policy and analyzing data in the financial section. For the two years, I found my interests are passion in data analytic and web development. My goal is to use my passion and knowledge to solve problems and develop new projects. 
+    </p>
+</section>
+
+  <section>
+    <p> I am passionate about coding, web development, cloud computing, data analytics, and mobile development. Currently, I practicing my coding in javascript and python. My interest of learning software development begins with my passion of data analytic. For the past couple years, data coming from all over the place and transforming into word of information. It was interesting to drag a collection of facts and using machine to simply it to human-readable. As a software developer, we get to solve puzzling problem, analyzing the needs of the user and then create, test, and develop software that will provide the solution to the problem.</p>
+</section>
+
+<!--personal interest-->
+<h3>Other Activities</h3>
+<section>
+<p> I am a person that love to travel and adventurous foodie. I have been fortunate to travel to many countries before the event of global pandemic. One of the most memorable things I ever done was backpacking to Europe for fifteen days and seeing one of the coolest northern light in Iceland. One of the greatest things about exploring in Southeast Asian is having their local famous exotic delicacies. Traveling with beyond has given me the privilege to meet new people, take part of the action in the local cities, experiencing the culture, immerse yourself in geography. There always a story to tell when you travel. 
+</p>
+
+<p>
+  I want to use this blog to develop my passion and share my journey where i can also grow in the data analytic and web development fields. In the future, this blog will include multiple topics and interest of mine.  
+</p>
+
+<ul>
+  <li>Projects</li>
+  <li>Travel</li>
+  <li>Los Angeles</li>
+  <li>Foodie</li>
+</ul>
+</section>
+
+<!--Contact-->
+
+<section>
+ <h3><strong>Contact</strong></h3>
+ <P>Thank you for visiting my blog! You contact me here:
+</P>
+
+<ol> 
+  <li><strong>Email: datacookies2@gmail.com</strong></li>
+<li>
+<a href="https://www.linkedin.com/in/joyce-tao-cams-93147717/">Linkedin</a>
+</li>
+<li>
+  <a href="https://github.com/cocomon2019">Github</a>
+</li>
+
+</ol>
+
+<div id="map-container">
+  
+</div>
+
+</section>
+</main>
+
+<footer>
+  <p>&copy; Joyce's blog</p>
+</footer>
+<script>
+  function myMap() {
+  var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+  };
+  var map = new google.maps.Map(document.getElementById("map-container"),mapProp);
+  }
+  </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCq3SDT0wERtcWhXfkd7e_WnvVoBowOTWI&callback=myMap"></script>
+</body>
+
+</html>
+
+
+
