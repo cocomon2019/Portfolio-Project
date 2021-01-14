@@ -1,8 +1,14 @@
-html {background-image: url(images/background2.jpg); height: 600px;
-}
+/*--light background--*/
+html {background-image: url(images/background2.jpg); 
+  background-size: 45%; 
+  height: 600px; 
+  background-blend-mode: lighten;}
 
-body {margin: 0;}
+main {width: 90vw; margin: 0 auto; padding: 30px 20px; min-height: calc(100vh - 4816px - 24px);}
 
+body {margin: 0; font-family: Arial, Helvetica, sans-serif; position:relative; text-shadow: 2px 2px 5px bisque}
+
+/*---log--*/
 .logo {
   font-family: Georgia, "Times New Roman", sans-serif;
   font-size: 72px;
@@ -13,27 +19,27 @@ body {margin: 0;}
   padding: 10px 0 0 0;
 }
 
-footer {
-  background-color: #403933;
-  color: color: #403933;
-}
-
-section {
+/*--personal profile summary--*/
+article {
+  font-size: 18px;
   padding: 0 30%;
   margin: 5% 0x;
   color: rgb(255, 248, 220);
 }
 
+/*--Profile Picture - format in circle---*/
 .profile-picture-container {
   display: flex;
   margin: 0 auto;
   justify-content: center;
 }
 
+
 .profile-picture {
   border-radius: 50%;
 }
 
+/*--header format--*/
 h1, h2,h3 {
   font-family: "Georgia", sans-serif;
   color:rgb(255, 248, 220);
@@ -41,21 +47,31 @@ h1, h2,h3 {
   font-weight: 100;
 }
 
-h1 {font-size: 20px;}
-h2 {font-size: 20px; font-weight: bolder;}
-h3 {font-size: 20px;}
+h1 {font-size: 40px;}
+h2 {font-size: 35px; font-weight: bolder;}
+h3 {font-size: 30px;}
 
 p, li {font-family: "Time", sans-serif; line-height: 1.5em; margin-bottom: 0; color: white;}
 
 a {font-weight: 700; text-decoration: none;}
 a:visited {color: white;}
 
+em {font-weight: bold; font-style: normal;}
 
+/*--footer--*/
+footer {
+  background-color: #403933;
+  color: white;
+  text-align: center
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
 
-em {font-weight: bold;font-style: normal;}
+footer p {color: white; text-align: center; padding: 10x; margin: 0;}
 
-footer p {color: white;text-align: center; padding: 10px; margin: 0;}
-
-.map-container {
+/*--map container -api from google--*/
+#map-container {
   justify-content: center;
+  height: 300px;
 }
