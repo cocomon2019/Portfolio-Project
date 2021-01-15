@@ -4,7 +4,8 @@
 html {background-image: url(https://cocomon2019.github.io/Portfolio-Project/images/Profile2.jpg); 
   background-size: 45%; 
   height: 600px; 
-  background-blend-mode: lighten;}
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;}
 
 main {width: 90vw; margin: 0 auto; padding: 30px 20px; min-height: calc(100vh - 4816px - 24px);}
 
