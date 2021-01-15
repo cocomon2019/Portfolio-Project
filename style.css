@@ -2,7 +2,7 @@
 
 /*--light background--*/
 html {background-image: url(https://cocomon2019.github.io/Portfolio-Project/images/background2.jpg); 
-  background-size: 45%; 
+  background-size: 100%; 
   height: 600px; 
   background-blend-mode: lighten;
   background-repeat: no-repeat;}
